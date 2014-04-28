@@ -1,0 +1,90 @@
+body {
+  /*position: relative;*/
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.subhead{background-color: #eeeeee; padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px;}
+.logo{max-height: 50px;}
+.connexion{line-height: 30px; color: #666;}
+
+.boutonCompte{
+  padding-right: 15px;
+}
+
+.grid {
+    border: 1px solid #ccc;
+    border-width: 1px 0 0 1px;
+}
+
+.grid div, .grid1 div {
+    border: 1px solid #ccc;
+    border-width: 1px 1px 1px 0;
+    float: left;
+}
+
+.black{
+    background-color:#e3e3e3;
+}
+
+.white, .black {
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.positionsPossibles{
+  background-color: #8FCF3C!important;
+}
+.positionActuelle{
+  background-color: #5EB6DD!important;
+}
+
+.white:focus, .black:focus{
+	color: red;
+}
+.echiquier td {
+	text-align: center;
+}
+
+.deplacement{
+  float: right;
+}
+
+.moves{
+  width: 70px;
+}
+
+table.tablesorter thead tr .header {
+    background-image: url(../img/black-unsorted.gif);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    cursor: pointer;
+    min-width: 30px;
+    
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(../img/black-asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(../img/black-desc.gif);
+}
+
+.tableauCodeSan {
+  max-height:300px;
+  overflow:auto;
+  width: 100%;
+}
+
+#grilleInsert .grid1 div {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#grilleInsert{
+  width: 100%;
+  height: 100%;
+}
+
+.img-home {
+  text-align: center;
+}

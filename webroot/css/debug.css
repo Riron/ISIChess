@@ -1,0 +1,12 @@
+.debugInfos{
+	position: fixed;
+	bottom: 0;
+	background-color: #d59595;
+	display: block;
+	color: black;
+	height: 30px;
+	left: 0px;
+	right: 0px;
+	padding-left: 10px;
+	line-height: 30px;
+}

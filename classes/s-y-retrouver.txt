@@ -1,0 +1,21 @@
+Un jeu d'échec est composé des deux joueurs et d'un plateau.
+
+Les joueurs ont chacun leur couleur. Blanc pour le joueur 0 et noir pour le joueur 1.
+Les joueurs ont un tableau de pièces.
+Les joueurs ont un et unique roi.
+Les joueurs ont une liste de coups qui leur est permis de faire. Cette liste correspond à tous les coups que chacune de leur pièce peut réaliser.
+Un joueur peut être ou non en échec. Un joueur est en échec lorsque son roi constitue une case potentiellement occupable par une pièce ennemie.
+Un joueur en échec doit parer l'échec absolument. Tous ses coups disponibles se doivent de parer l'échec.
+Un joueur qui n'est pas en échec ne peut pas se mettre en échec tout seul. Tous ses coups disponibles doivent faire en sorte qu'il ne se mette pas tout seul en échec.
+
+Un plateau est constitué de 64 positions : il a 8 lignes et 8 colonnes. Certaines sont libres, d'autres sont occupées.
+
+Une position libre a un numéro de ligne et un numéro de colonnes.
+
+Une position occupée est une position sur laquelle est posée une pièce.
+Une position occupée a donc un champ pièce.
+
+Une pièce a une position, qu'elle occupe.
+Une pièce appartient à un certain joueur.
+Une pièce peut se déplacer sur un plateau. Il suffit de lui fournir une destination.
+Une pièce détient une liste de coups qui lui sont accessibles. On peut pas demander à une pièce de se déplacer à un endroit où elle ne peut pas aller.
